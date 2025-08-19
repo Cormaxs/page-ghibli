@@ -1,0 +1,21 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+   /* background-color: #f0f0f0;*/
+}
+/* Import a custom font from Google Fonts for a unique look */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+ .main {
+  
+  padding: 100px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+ 
+  

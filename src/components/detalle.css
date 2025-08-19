@@ -1,0 +1,43 @@
+.detalle-container{
+    text-align: center;
+    position: relative;
+}
+
+.detalle-container > button{
+   backdrop-filter: blur(5px);
+   border: none;
+   border-radius: 10px;
+   margin: 10px;
+    display: flex;
+    padding: 10px;
+    position: absolute;
+}
+
+
+
+.detalle-content{
+    display: flex;
+    padding: 20px;
+   justify-content: center;
+   
+    flex-wrap: wrap;
+}
+
+.detalle-content > img{
+width: auto;
+height: 300px;
+}
+
+.detalle-info{
+    width: 80%;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    text-align: left;
+    background-color: rgba(233, 233, 231, 0.372);
+    border-radius: 0  10px 10px 0;
+}
+
+.titulo{
+    font-size: 1.8rem;
+    padding-bottom: 15px;
+}
