@@ -1,43 +1,150 @@
-.detalle-container{
-    text-align: center;
-    position: relative;
+/* Paleta de colores inspirada en Ghibli */
+:root {
+  --ghibli-bg-light: #f3f3e8;
+  --ghibli-bg-medium: #e4e2d3;
+  --ghibli-text-dark: #3a3a3a;
+  --ghibli-text-light: #6a6a6a;
+  --ghibli-accent-green: #90b89f;
 }
 
-.detalle-container > button{
-   backdrop-filter: blur(5px);
-   border: none;
-   border-radius: 10px;
-   margin: 10px;
-    display: flex;
-    padding: 10px;
+body {
+  background-color: var(--ghibli-bg-medium);
+  font-family: 'Poppins', sans-serif;
+}
+
+.detalle-container {
+  height: 100vh;
+  background-image: var(--bg-image); 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Capa de superposición para desenfoque y un tono suave */
+.detalle-overlay {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(228, 226, 211, 0.4); 
+    backdrop-filter: blur(20px); 
+    z-index: 0;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
+.detalle-content {
+  display: flex;
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+  background-color: var(--ghibli-bg-light);
+  border-radius: 30px; 
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+}
 
-
-.detalle-content{
+/* Contenedor para los botones */
+.botones-container {
     display: flex;
-    padding: 20px;
-   justify-content: center;
-   
+    gap: 15px; /* Espacio entre los botones */
+    margin-top: 20px;
     flex-wrap: wrap;
 }
 
-.detalle-content > img{
-width: auto;
-height: 300px;
+/* Estilo para ambos botones */
+.volver, .descargar {
+    background: var(--ghibli-accent-green);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    text-decoration: none; /* Quitamos el subrayado del enlace */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
 }
 
-.detalle-info{
-    width: 80%;
-    backdrop-filter: blur(5px);
-    padding: 10px;
+.volver:hover, .descargar:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
+.volver:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.detalle-content > img {
+  width: clamp(250px, 40%, 400px);
+  height: auto;
+  object-fit: cover;
+  margin-right: 40px;
+  border-radius: 20px; 
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+}
+
+.detalle-info {
+  flex-basis: 55%;
+  flex-grow: 1;
+  padding: 20px;
+  color: var(--ghibli-text-dark);
+}
+
+.detalle-info > .titulo {
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+  color: var(--ghibli-text-dark);
+}
+
+.detalle-info > .sinopsis {
+  font-size: 1.1rem;
+  max-width: 700px;
+  line-height: 1.6;
+  color: var(--ghibli-text-light);
+}
+
+.detalle-info > .categoria {
+  padding-top: 20px;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: var(--ghibli-text-light);
+}
+
+/* Versión Móvil */
+@media (max-width: 768px) {
+  .detalle-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+  }
+  .detalle-content > img {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+  .detalle-info {
+    padding: 15px 0;
     text-align: left;
-    background-color: rgba(233, 233, 231, 0.372);
-    border-radius: 0  10px 10px 0;
-}
-
-.titulo{
-    font-size: 1.8rem;
-    padding-bottom: 15px;
+  }
+  .detalle-info > .titulo {
+    font-size: 2rem;
+  }
+  .detalle-info > .sinopsis {
+    font-size: 1rem;
+  }
+  .detalle-container {
+    height: 200vh;}
 }

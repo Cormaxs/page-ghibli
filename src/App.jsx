@@ -11,10 +11,6 @@ function App() {
         {/* Ruta principal que muestra la lista de películas */}
         <Route path="/" element={<main className='main'><CardGrilla peliculas={peliculasGhibli} /></main>} />
         
-        {/*
-          Ruta del detalle de la película. El :id es un parámetro dinámico.
-          El componente DetallePelicula recibirá este ID de la URL.
-        */}
         <Route path="/pelicula/:id" element={<Detalle peliculas={peliculasGhibli} />} />
       </Routes>
     </Router>

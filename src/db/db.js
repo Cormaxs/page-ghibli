@@ -27,7 +27,8 @@ import theBoyAndTheHeron from "../assets/portadas-ghibli/El-chico-y-la-garza.jpg
 export const peliculasGhibli = [
   {
     id: 1,
-    titulo: "El Castillo en el Cielo",
+
+    descargar:" https://1024terabox.com/s/1YqDoT5dv6L0Ggv8b6MJTDw",    titulo: "El Castillo en el Cielo",
     tituloOriginal: "Tenkū no Shiro Rapyuta",
     año: 1986,
     director: "Hayao Miyazaki",
@@ -40,7 +41,8 @@ export const peliculasGhibli = [
   },
   {
     id: 2,
-    titulo: "Mi Vecino Totoro",
+
+    descargar:" https://1024terabox.com/s/14sGU3c9k1AQmmKlGVRBI8A",    titulo: "Mi Vecino Totoro",
     tituloOriginal: "Tonari no Totoro",
     año: 1988,
     director: "Hayao Miyazaki",
@@ -53,7 +55,8 @@ export const peliculasGhibli = [
   },
   {
     id: 3,
-    titulo: "La Tumba de las Luciérnagas",
+
+    descargar:"https://google.com",    titulo: "La Tumba de las Luciérnagas",
     tituloOriginal: "Hotaru no Haka",
     año: 1988,
     director: "Isao Takahata",
@@ -66,7 +69,8 @@ export const peliculasGhibli = [
   },
   {
     id: 4,
-    titulo: "Nicky, la Aprendiz de Bruja",
+
+    descargar:"https://1024terabox.com/s/1_zgubFdqa04JBG7ZlDPZsg",    titulo: "Nicky, la Aprendiz de Bruja",
     tituloOriginal: "Majo no Takkyūbin",
     año: 1989,
     director: "Hayao Miyazaki",
@@ -79,7 +83,8 @@ export const peliculasGhibli = [
   },
   {
     id: 5,
-    titulo: "Recuerdos del Corazón",
+
+    descargar:"https://google.com",    titulo: "Recuerdos del Corazón",
     tituloOriginal: "Omoide Poro Poro",
     año: 1991,
     director: "Isao Takahata",
@@ -92,7 +97,8 @@ export const peliculasGhibli = [
   },
   {
     id: 6,
-    titulo: "Porco Rosso",
+
+    descargar:"https://google.com",    titulo: "Porco Rosso",
     tituloOriginal: "Kurenai no Buta",
     año: 1992,
     director: "Hayao Miyazaki",
@@ -105,7 +111,8 @@ export const peliculasGhibli = [
   },
   {
     id: 7,
-    titulo: "Puedo Escuchar el Mar",
+
+    descargar:"https://google.com",    titulo: "Puedo Escuchar el Mar",
     tituloOriginal: "Umi ga Kikoeru",
     año: 1993,
     director: "Tomomi Mochizuki",
@@ -118,7 +125,8 @@ export const peliculasGhibli = [
   },
   {
     id: 8,
-    titulo: "Pompoko",
+
+    descargar:"https://google.com",    titulo: "Pompoko",
     tituloOriginal: "Heisei Tanuki Gassen Ponpoko",
     año: 1994,
     director: "Isao Takahata",
@@ -131,7 +139,8 @@ export const peliculasGhibli = [
   },
   {
     id: 9,
-    titulo: "Susurros del Corazón",
+
+    descargar:"https://google.com",    titulo: "Susurros del Corazón",
     tituloOriginal: "Mimi o Sumaseba",
     año: 1995,
     director: "Yoshifumi Kondō",
@@ -144,6 +153,7 @@ export const peliculasGhibli = [
   },
   {
     id: 10,
+    descargar:"https://google.com",
     titulo: "La Princesa Mononoke",
     tituloOriginal: "Mononoke Hime",
     año: 1997,
@@ -157,6 +167,7 @@ export const peliculasGhibli = [
   },
   {
     id: 11,
+    descargar:"https://google.com",
     titulo: "Mis Vecinos los Yamada",
     tituloOriginal: "Hōhokekyo Tonari no Yamada-kun",
     año: 1999,
@@ -170,6 +181,7 @@ export const peliculasGhibli = [
   },
   {
     id: 12,
+    descargar:" https://1024terabox.com/s/1x6P1yR0S3AFImoExClCyyA",
     titulo: "El Viaje de Chihiro",
     tituloOriginal: "Sen to Chihiro no Kamikakushi",
     año: 2001,
@@ -183,6 +195,7 @@ export const peliculasGhibli = [
   },
   {
     id: 13,
+    descargar:"https://google.com",
     titulo: "Haru en el Reino de los Gatos",
     tituloOriginal: "Neko no Ongaeshi",
     año: 2002,
@@ -196,6 +209,7 @@ export const peliculasGhibli = [
   },
   {
     id: 14,
+    descargar:"https://1024terabox.com/s/1vTbXpZETwEFvaRiAQ7vpiw ",
     titulo: "El Castillo Ambulante",
     tituloOriginal: "Hauru no Ugoku Shiro",
     año: 2004,
@@ -209,6 +223,7 @@ export const peliculasGhibli = [
   },
   {
     id: 15,
+    descargar:"https://google.com",
     titulo: "Cuentos de Terramar",
     tituloOriginal: "Gedo Senki",
     año: 2006,
@@ -222,6 +237,7 @@ export const peliculasGhibli = [
   },
   {
     id: 16,
+    descargar:"https://1024terabox.com/s/1Le_g2yuGuPdR8IiBo8fyLg",
     titulo: "Ponyo en el Acantilado",
     tituloOriginal: "Gake no Ue no Ponyo",
     año: 2008,
@@ -235,6 +251,7 @@ export const peliculasGhibli = [
   },
   {
     id: 17,
+    descargar:"https://google.com",
     titulo: "Arrietty y el Mundo de los Diminutos",
     tituloOriginal: "Karigurashi no Arrietty",
     año: 2010,
@@ -248,6 +265,7 @@ export const peliculasGhibli = [
   },
   {
     id: 18,
+    descargar:"https://google.com",
     titulo: "La Colina de las Amapolas",
     tituloOriginal: "Kokuriko-zaka Kara",
     año: 2011,
@@ -261,6 +279,7 @@ export const peliculasGhibli = [
   },
   {
     id: 19,
+    descargar:"https://1024terabox.com/s/1zEjUVv8VeEppKh5wt2m5XA ",
     titulo: "El Viento se Levanta",
     tituloOriginal: "Kaze Tachinu",
     año: 2013,
@@ -274,6 +293,7 @@ export const peliculasGhibli = [
   },
   {
     id: 20,
+    descargar:" https://1024terabox.com/s/1rSQn1kKCgJOHWM2QCIH5Fw",
     titulo: "El Cuento de la Princesa Kaguya",
     tituloOriginal: "Kaguya-hime no Monogatari",
     año: 2013,
@@ -287,6 +307,7 @@ export const peliculasGhibli = [
   },
   {
     id: 21,
+    descargar:"https://google.com",
     titulo: "Cuando Marnie Estuvo Allí",
     tituloOriginal: "Omoide no Marnie",
     año: 2014,
@@ -300,6 +321,7 @@ export const peliculasGhibli = [
   },
   {
     id: 22,
+    descargar:"https://google.com",
     titulo: "Earwig y la Bruja",
     tituloOriginal: "Aya to Majo",
     año: 2020,
@@ -313,6 +335,7 @@ export const peliculasGhibli = [
   },
   {
     id: 23,
+    descargar:" https://1024terabox.com/s/1s8Llo356TKkReGZowjQ4rA",
     titulo: "El Chico y la Garza",
     tituloOriginal: "Kimi-tachi wa Dō Ikiru ka",
     año: 2023,

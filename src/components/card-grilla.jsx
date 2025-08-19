@@ -4,6 +4,7 @@ import './cards-grilla.css';
  function CardGrilla({ peliculas }) {
     return (
         <>
+        <h1>Peliculas ghibli →</h1>
             {
                 peliculas.map((pelicula) => {
                     return (
@@ -20,7 +21,7 @@ import './cards-grilla.css';
                        
                     )
                 })
-            }
+            } <h1>← Volver a ver</h1>
         </>
     )
 }
